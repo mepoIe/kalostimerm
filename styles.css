@@ -199,9 +199,6 @@
   .hide {
     display: none;
   }
-  .expand {
-    
-  }
   #fmaBox {
     height: 20vh;
   }
@@ -217,8 +214,9 @@
   .counter {
     font-size: 5rem;
   }
-  .bind { 
-    width: 100%
+  .bind, .test { 
+    width: 100%;
+    padding: 3.5rem;
   }
   .test {
     width: 100%
@@ -228,4 +226,14 @@
   }
   .systems {
     font-size: 5rem;
+  }
+  .grid-2 {
+    margin: auto; 
+    padding-top: 0px;
+    display: grid; 
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  #bindBox {
+    margin-bottom: 10px;
   }
